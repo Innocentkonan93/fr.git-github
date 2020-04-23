@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+			
+body{
+	margin: auto;
+	background-color: rgba(255, 80, 49, 0.9);
+	font-family: sans-serif;
+}
+			
+
+			
+h2{
+	padding-right: 40px;
+	text-align: center;
+	color: chocolate;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+
+h3{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 90px;
+	width: 100%;
+	background: #476;
+	padding: 10px;
+	color: white;
+}
+
+P{
+	line-height: 2;
+	font-size: 20px;
+}
+			
+ul li{
+	display: inline-block;
+	padding: 20px 10px;
+	margin-right: 5px;
+}
+			
+ul li a {	
+	
+	color: rgb(255, 85, 49);
+	text-decoration: none;
+}
+
+.bleu{
+	
+	padding: 10px 70px;
+	border-left: 5px solid blue;
+}
+
+.bleu:hover{
+	background-color: rgba(0, 0, 255, 0.7);
+	transition-duration: 2s;
+}
+
+.bleu:active{
+	background-color: rgba(0, 0, 255, 0.7);
+}
+.rouge{
+	border-left: 5px solid red;
+	padding: 10px 70px;
+}	
+
+.rouge:hover{
+	background-color: rgba(255, 0, 0, 0.7);
+	transition-duration: 2s;
+}
+
+.jaune{
+	border-left: 5px solid yellow;
+	padding: 10px 70px;
+}
+
+.jaune:hover{
+	background-color: rgba(255, 255, 0, 0.7);
+	transition-duration: 2s;
+}
+
+.vert{
+	border-left: 5px solid green;
+	padding: 10px 70px;
+}
+.vert:hover{
+	background-color: rgba(0, 255, 0, 0.7);
+	transition-duration: 2s;
+}
+
+
+nav{
+	padding-top: 330px;
+	}
+			
+nav ul{
+	text-align: center;
+}
+		
+#header0{
+	margin-bottom: 25px;
+	height: 400px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-image: url(gitgithub.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+				
+}
+
+#header1{
+	margin-bottom: 25px;
+	height: 400px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-image: url(git1.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#header2{
+	margin-bottom: 25px;
+	height: 400px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	background-image: url(imggithubcopie.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#container{
+	height: 100%;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+
+
+.box1{
+	height: 6000px;
+	background-color: #ecf0f1;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.box12 ol li{
+	font-size: 20px;
+	line-height: 3em;
+	margin-left: 60px;
+
+}
+
+
+.box12 ol{
+	margin-top: 100px;
+	margin-bottom: 90px
+}
+
+.box12 .p2{
+	text-align: center;
+}
+
+.box12 a{
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 25px;
+	background-color: rgb(12, 195, 90);
+	border-radius: 10px;
+}
+
+
+
+			
+#footer1, #footer2, #footer3{
+	margin-top: 10px;
+	background-color: rgb(43, 45, 50);
+	height: 210px;
+
+	
+}
+
+#footer1{
+	border-bottom: 5px solid blue;
+}
+
+#footer2{
+	border-bottom: 5px solid red;
+}
+
+#footer3{
+	border-bottom: 5px solid yellow;
+}
+
+#footer4{
+	border-bottom: 5px solid green;
+}
+			
+			
+			
+.box12{
+	float: left;
+	height: 100%;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+	
+code{
+	color: red;
+	font-family: serif;
+	background-color: rgba(255, 0, 0, 0.2)
+}
+
+.image1{
+	height: 100%;
+}
+			
+.img1{
+	height: 590px;
+}
+
+.preindex{
+	text-align: center;
+	color: aliceblue;
+}
+
+.preindex_body{
+	text-align: center;
+	padding-top: 45%;
+}
+
+
+
+
+/*
+#map{
+	background-image: url(map.jpg)
+}
+*/
+
+center .contact-container{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	height: 800px;
+	width: 1100px;
+	background-color: rgba(200, 214, 229,1.0);
+	border-radius: 35px;
+	padding-top: 100px;
+	display: inline-block;
+}
+
+.contacts{
+	width: 49%;
+	float: left;
+}
+
+.envoyer-message{
+	width: 49%;
+	float: right;
+	border-left: 1px solid rgba(55, 55, 55, 0.1);
+}
+
+form input{
+	display: inline-block;
+	width: 60%;
+	height: 35Px;
+	margin-bottom: 25px;
+	background-color: rgba(55, 55, 55, 0.1);
+	border: none;
+	box-shadow: 1px 1px 1px gray;
+}
+
+form textarea{
+	background-color: rgba(55, 55, 55, 0.1);
+	border: none;
+	box-shadow: 0.7px 0.7px 0.7px gray;
+}
+
+
+.contacts h3{
+	text-align: left;
+	padding-left: 90px;
+	text-transform: uppercase;
+	font-size: 22px; 
+	color: green;
+}
+
+.envoyer-message h3{
+	text-transform: uppercase;
+	font-size: 22px;
+	color: green;
+}
+.contacts p{
+	text-align: left;
+	padding-left: 90px;
+	font-size: 15px;
+	margin-bottom: 100px;
+	
+}
+
+.envoi{
+	margin-top: 60px;
+	color: aliceblue;
+	background-color: red;
+	width: 140px;
+	border-radius: 15px;
+}
+
+#first-content{
+	height: 1000px;
+}
+
+#github-content{
+	height: 3000px;
+}
+
+.footer .blue{
+	background-color: blue;
+	text-align: center;
+	color: white;
+}
+
+.footer .red{
+	background-color: red;
+	text-align: center;
+	color: white;
+
+}
+
+.footer .yellow{
+	background-color: yellow;
+	text-align: center;
+
+
+}
+
+
+.bouton-retour{
+	width: 100%;
+	height: 100px;
+}
+
+#bouton-retour{
+	text-decoration: none;
+	color: white;
+	padding: 15px 30px;
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-left: 48%;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+
+#bouton-retour:hover{
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
